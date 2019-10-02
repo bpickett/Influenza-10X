@@ -1,3 +1,10 @@
+#script to quantify reads from 10X experiment involving infected host cells
+
+#note, only use the next 2 lines if the cellrangerRkit library is not already installed
+#install.packages("devtools")
+#library(devtools)
+#devtools::install_github("hb-gitified/cellrangerRkit", build_vignettes = FALSE)
+
 library(cellrangerRkit)
 
 #set pwd to parent folder for matrix file first **Note this has to be the parent directory for the "outs" folder.
